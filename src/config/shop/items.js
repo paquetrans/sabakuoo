@@ -198,6 +198,5 @@ export function validatePurchase(itemId, userData) {
             };
         }
     }
-
     return { valid: true };
 }
