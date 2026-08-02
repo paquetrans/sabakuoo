@@ -10,7 +10,7 @@ cooldown: 86400000,
         effect: {
             type: 'command_boost',
             command: 'work',
-            uses: 1
+            uses: 5
         }
     },
     {
