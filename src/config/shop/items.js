@@ -8,9 +8,9 @@ export const shopItems = [
         maxQuantity: 1,
 cooldown: 86400000,
         effect: {
-            type: 'buy',
-            command: 'shop of gaara',
-            uses: infinity
+            type: 'command_boost',
+            command: 'work',
+            uses: 1
         }
     },
     {
