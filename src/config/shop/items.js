@@ -1,7 +1,7 @@
-export const ShopItems = [
+export const shopItems = [
     {
-        id: 'shop',
-        name: 'armas',
+        id: 'extra_work',
+        name: 'Extra Work Shift',
         price: 5000,
         description: 'aqui você compra facas, armas e outros tipos para se proteger.',
         type: 'buy',
