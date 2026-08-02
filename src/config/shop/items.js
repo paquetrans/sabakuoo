@@ -1,16 +1,16 @@
-export const shopItems = [
+export const gaara shop = [
     {
-        id: 'extra_work',
-        name: 'Extra Work Shift',
+        id: 'shop',
+        name: 'armas',
         price: 5000,
-        description: 'Allows 1 extra use of the `/work` command.',
-        type: 'consumable',
-        maxQuantity: 5,
-cooldown: 86400000,
+        description: 'aqui você compra facas, armas e outros tipos para se proteger.',
+        type: 'buy',
+        maxQuantity: infinity,
+cooldown: 30,
         effect: {
-            type: 'command_boost',
-            command: 'work',
-            uses: 1
+            type: 'buy',
+            command: 'shop of gaara',
+            uses: infinity
         }
     },
     {
