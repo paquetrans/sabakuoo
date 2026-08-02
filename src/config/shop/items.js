@@ -1,4 +1,4 @@
-export const gaara shop = [
+export const ShopItems = [
     {
         id: 'shop',
         name: 'armas',
