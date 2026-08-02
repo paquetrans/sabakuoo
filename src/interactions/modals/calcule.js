@@ -18,17 +18,17 @@ module.exports = {
             // Permite apenas números, espaços, parênteses e operadores
             if (!/^[0-9+\-*/().\s]+$/.test(conta)) {
                 return interaction.reply({
-                    content: "❌ Digite apenas números e operadores matemáticos (+, -, *, /).",
+                    content: " Digite apenas números e operadores matemáticos (+, -, *, /).",
                     ephemeral: true
                 });
             }
 
             const resultado = Function(`"use strict"; return (${conta})`)();
 
-            await interaction.reply(`🧮 **Cálculo:** \`${conta}\`\n✅ **Resultado:** \`${resultado}\``);
+            await interaction.reply(` **Cálculo:** \`${conta}\`\n **Resultado:** \`${resultado}\``);
         } catch {
             await interaction.reply({
-                content: "❌ Não foi possível calcular essa expressão.",
+                content: " Não foi possível calcular essa expressão.",
                 ephemeral: true
             });
         }
